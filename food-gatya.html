@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>ごはんガチャ</title>
+    <link rel="stylesheet" href="food-gatya.css">
+</head>
+<body>
+
+    <div class="Emphasis">
+        <h1>今日のごはんきめてくれ！</h1>
+    </div>
+    
+    <div class="contents">
+
+        <h6> いいんだね！！本当になんでもいいんだね！？</h6>
+        <p>予算を入力してね</p>
+        <form name="form1" id = "id_form1" action="">
+            ￥ <input type="number" id="money" value="" />
+        </form>
+        <form id="move">
+            <p>
+                <input name = "move" type="radio" value="train" /> 電車 
+                <input name = "move" type="radio" value="walk"/> 徒歩
+            </p>
+
+        </form>
+
+        <button id="assessment">ご飯を決める</button>
+
+    </div>
+
+
+    <div class="Emphasis">
+        <h1>
+            <p id="store"></p>
+        </h1>
+    </div>
+
+    <div class="contents">
+
+        <!-- <a href="https://twitter.com/intent/tweet?button_hashtag=今日のご飯&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text  data-show-count="false">Tweet #今日のご飯</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>     -->
+        <!-- <div id="result-area"></div> -->
+        <div id="tweet-area"></div>
+        <script src="food-gatya.js"></script>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
